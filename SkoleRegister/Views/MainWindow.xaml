@@ -1,0 +1,18 @@
+﻿<Window x:Class="SkoleRegister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SkoleRegister"
+        mc:Ignorable="d"
+        Title="Strandskolen Karlslunde - Login" Height="350" Width="625">
+    <Grid>
+        <!--<TextBox HorizontalAlignment="Left" Height="23" Margin="445,111,0,0" TextWrapping="Wrap" Text="{Binding ElementName=LBF, Path=SelectedItem.FirstName, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="445,164,0,0" TextWrapping="Wrap" Text="{Binding ElementName=LBF, Path=SelectedItem.FirstName, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>-->
+        <Button Content="Login" HorizontalAlignment="Left" Margin="469,216,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Cursor="Hand" AutomationProperties.HelpText="Logs you in" BorderBrush="#FF387DC1" Foreground="White" Background="#FF467DBF"/>
+        <Image HorizontalAlignment="Left" Height="237" Margin="0,44,0,0" VerticalAlignment="Top" Width="469" Source="C:\Users\Moyum\Desktop\Transparent\Strandskolen Karlslunde.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="445,90,0,0" TextWrapping="Wrap" Text="Brugernavn" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="445,143,0,0" TextWrapping="Wrap" Text="Kodeord" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
